@@ -8,9 +8,9 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	cout << "Hello World!\n";
-
 	cout << "build " << lib::version;
+
+	cout << "Hello World!\n";
 
 	_getch();
 	return 0;
