@@ -10,7 +10,7 @@ int main()
 
 	cout << "build " << lib::version << "\n";
 
-	cout << "Hello World!";
+	cout << "Hello, World!";
 
 	_getch();
 	return 0;
