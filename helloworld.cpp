@@ -1,17 +1,13 @@
-#include <conio.h>
-#include <iostream>
 #include "lib.h"
 
 using namespace std;
 
-int main()
+int helloworld()
 {
 	setlocale(LC_ALL, "Russian");
 
-	cout << "build " << lib::version << "\n";
+	std::cout << "build " << lib::version() << "\n";
+	std::cout << "Hello, World!";
 
-	cout << "Hello, World!";
-
-	_getch();
 	return 0;
 }
