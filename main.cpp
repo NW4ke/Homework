@@ -7,7 +7,8 @@ int main()
 	auto logger = spdlog::stdout_logger_mt("console");
 	logger->info("version {} was started", version());
 	
-	helloworld();
+	std::cout << "build " << version() << "\n";
+	std::cout << "Hello, World!";
 	
 	return 0;
 }
