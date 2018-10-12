@@ -8,6 +8,8 @@ configure_file(version.h.in ${PROJECT_SOURCE_DIR}/version.h)
 
 add_executable(helloworld_cli main.cpp)
 
+add_executable(helloworld helloworld.cpp)
+
 add_library(helloworld lib.cpp)
 
 add_executable(test_version test_version.cpp)
