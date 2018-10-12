@@ -2,10 +2,6 @@
 
 int helloworld()
 {
-	setlocale(LC_ALL, "Russian");
-
-	std::cout << "build " << PROJECT_VERSION_PATCH << "\n";
+	std::cout << "build " << version() << "\n";
 	std::cout << "Hello, World!";
-
-	return 0;
 }
