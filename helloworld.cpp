@@ -1,7 +1,5 @@
 #include "lib.h"
 
-using namespace std;
-
 int helloworld()
 {
 	setlocale(LC_ALL, "Russian");
